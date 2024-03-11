@@ -1,10 +1,16 @@
 <?php
-    $data1 = 20; 
-    $data2 = 70;
+$nilai = 90;
 
-    if ($data1 > $data2) {
-        echo "benar";
-    }else {
-        echo "salah";
-    }
+if ($nilai > 90) {
+    echo "A";
+} elseif ($nilai > 80) {
+    echo "B";
+} elseif ($nilai > 70) {
+    echo "C";
+} elseif ($nilai > 60) {
+    echo "D";
+} else {
+    echo "E";
+}
+
 ?>
